@@ -1,14 +1,43 @@
 {
-  "name": "gallant-matches-tool",
+  "name": "gallantmatchestool",
   "version": "1.0.0",
+  "description": "GallantMatchesTool - A Deriv Matches and Differs Analysis Web App with user login, Deriv auth, and automated fee access system.",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "dependencies": {
+    "axios": "^1.6.8",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "mongoose": "^8.4.0"
-  }
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.1",
+    "nodemailer": "^6.9.13",
+    "ws": "^8.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "keywords": [
+    "Deriv",
+    "Trading",
+    "Matches",
+    "Differs",
+    "Gallant",
+    "Analysis",
+    "Bot",
+    "Node.js",
+    "Express"
+  ],
+  "author": "Admin_Mr.Bwayo",
+  "license": "MIT"
 }
